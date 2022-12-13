@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <script src='jquery-3.2.1.min.js'>
+    </script>
+    <script>
+$(document).ready(function(){
+	$("#f").click(function(){
+			$(".achie").toggle(500);});
+$("#t").click(function(){
+			$(".message").toggle(500);});
+});
+
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="Frontpage.css">
+
+</head>
+
+<body>
+    <div class="vid">
+        <video src="videoplayback.mp4" height=100% width=100% autoplay loop muted></video>
+    </div>
+    <div style="background-color:black;opacity:.8;filter:blur(5px);height:100%;width:100%;position:fixed;"></div>
+    <div style='position:sticky;'>
+        <h2 align="left" style="color:white;font-family:Edwardian Script ITC;font-size:40px;">
+            Rosario's Little Boy
+        </h2>
+        <div align="left" style="position:sticky;" class="menu">
+
+            <table align='right' class="tab" cellspacing=6px cellpadding="6px">
+                <tr align='center '>
+                    <td id="f">ACHIEVEMENTS</td>
+                    <td id="t">MESSAGE</td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <br><br>
+        <div class="des" align="center">
+            <table align='center' width="40%" class="intro">
+                <tr align="center">
+                    <td>
+                        <img src="IMG-20211130-WA0030.jpg" height="150px" width="150px" style="border-radius:90px;box-shadow:0px 1px 10px 4px blue;">
+                    </td>
+                </tr>
+                <tr align="center" class="m">
+                    <td>Lionel Andres Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team.</td>
+                </tr>
+                <tr align="center" style="padding:5px;">
+                    <td>
+                        <img src="logo1.png" height="80px" height="80px"></img><img src="logo2.png" height="80px" height="80px"></img><img src="logo-removebg-preview.png" height="80px" height="80px"></img>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+<br><br>
+        <div align="right" style="float:right;display:none;" class="achie">
+            <table class="tab2" cellpadding=5px  style="border-radius:15px;">
+                <tr align="center">
+                    <td>
+  The player with the most Ballon d'Or awards all-time is Lionel Messi who has won it seven times.</td>
+                    <td><img src="ballan.jpg" style="height:70px;width:90px;border-radius:10px;"></img>
+                    </td>
+                </tr>
+                <tr align='center'>
+<td>Leo Messi has won PICHICHIs 8 times.</td>
+                    <td>
+                        <img src="pichcichi.jpg" style="height:70px;width:90px;border-radius:10px;"></img>
+                    </td>
+                    
+                </tr>
+
+
+
+ <tr align='center'>
+<td>Leo Messi has won COPA AMERICA for the first time after 28 years.</td>
+                    <td>
+                        <img src="COPA AMERAICA.jpg" style="height:70px;width:90px;border-radius:10px;"></img>
+                    </td>
+                    
+                </tr>
+
+
+
+ <tr align='center'>
+<td>Leo Messi has won GOLDEN BOOTs 6 times.</td>
+                    <td>
+                        <img src="golden shoe.jpg" style="height:70px;width:90px;border-radius:10px;"></img>
+                    </td>
+                    
+                </tr>
+
+
+
+ <tr align='center'>
+<td>Leo Messi has won Champions Cup for 4 times.</td>
+                    <td>
+                        <img src="champions.png" style="height:70px;width:90px;border-radius:10px;"></img>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div><br><br>
+<div align='center' class='message' style='float:right;display:none;'>
+
+<table cellpadding=5px cellspacing=6px width=40% class="tab3">
+<form action='Message.php' method='post'>
+<tr align='center'>
+<td><h3 align='center' style="font-family:verdana;font-size:15px;color:white;">Leave a Message</h3></td></tr>
+<tr align='center'>
+<td><input type='text' placeholder='Enter Name' name="a"></td></tr>
+<tr align='center'>
+<td><input type='text' placeholder='Enter Message' style='height:100px; width:200px;' name="b"></td>
+</tr>
+<tr align='center'>
+<td>
+<button type='submit'class='btn1'>SEND</button>
+<button type='reset' class='btn2'>RESET</button></td>
+</tr>
+</form></table>
+</div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
